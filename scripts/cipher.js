@@ -30,6 +30,8 @@
 
 // Acrescentar parâmetros e método para busca em document
 
+
+
 function encode (){
   let mensagem = document.getElementById('msg').value;
   let chave = parseInt(document.getElementById('chave').value);
