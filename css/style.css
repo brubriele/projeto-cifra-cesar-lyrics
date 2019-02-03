@@ -1,0 +1,111 @@
+.describe {
+
+  font-family: font-family: 'Just Another Hand', cursive;
+}
+
+
+.capa {
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    background: url(../img/gramophone_1200.jpg) no-repeat center center;
+    background-size: auto;
+    background-attachment: fixed;
+    opacity: .4;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px; */
+}
+
+.capa p {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 40px;
+    width: 26%;
+    margin: auto 0;
+}
+
+
+
+/* Lyrics cards */
+
+
+.cripto {
+    font-family: 'Anonymous Pro', monospace;
+    display: grid;
+    grid-template-columns: 400px 1fr 1fr;
+    grid-template-rows: 101% 50%;
+    height: calc(100vh - 110px);
+    margin-top: 20px;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    
+  }
+  
+  .cripto .description {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 3;
+  }
+  .cripto-card {
+    background: white;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+  }
+
+
+
+
+
+  /*inputs*/
+
+  input {
+    display: block;
+    border-color: #EA0000;
+    border-width: 0 0 1px 0;
+    margin: auto;
+    resize: horizontal;
+    width: 300px;
+    height: 15px;
+    
+  }
+
+  textarea {
+    display: block;
+    border-color: #EA0000;
+    border-width: 0 0 1px 0;
+  
+  }
+
+
+/* Botões */
+
+.capa .btn, .cripto .btn {
+    font-family: 'Anonymous Pro', monospace;
+    background-color: rgb(151, 150, 150);
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 5px;
+    border-radius: 2px;
+    
+    
+}
+
+.capa .btn:hover, .cripto .btn:hover{
+    background-color: rgb(207, 4, 4);
+    
+
+}
+
+/* cores */
+
+
+span {
+    color: #EA0000;
+}
