@@ -60,6 +60,6 @@ https://github.com/brubriele/projeto-cifra-cesar-lyrics/blob/master/img/flowchar
 
 
 ## Agradecimentos
-À equipe Laboratoria, mentores, equipe pedagógica, colegas do curso e em especial às minhas companheiras de squad: Ana Carolina Biscalchin,Ana Carolina Drumond, Ana Paula Lopes Araujo, Bruna Almeida e Bruna Gabriele Paula, que colaboraram muito para meu desenvolvimento durante este srpint do projeto.
+À equipe Laboratoria, mentores, equipe pedagógica, colegas do curso e em especial às minhas companheiras de squad: Ana Carolina Biscalchin,Ana Carolina Drumond, Ana Paula Lopes Araujo e Bruna Almeida que colaboraram muito para meu desenvolvimento durante este srpint do projeto.
 
 
