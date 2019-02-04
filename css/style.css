@@ -112,29 +112,3 @@
 span {
     color: #EA0000;
 }
-
-
-/* efeito máquina */
-
-.subTit{
-  overflow: hidden; 
-  border-right: .15em solid #F79999;
-  white-space: nowrap;
-  margin: 0 auto; 
-  letter-spacing: .15em;
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* Efeito digitação*/
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* Efeito do cursor */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #F79999; }
-}

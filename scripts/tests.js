@@ -1,51 +1,37 @@
-// LÓGICA PRINCIPAL
-
-// Código da letra + Chave do deslocamento % alfabeto
-
-// A B C D E F G H I J K L M 
-
-// N O P Q R S T U V W X Y Z 
-
-
-
-// Encriptografa
-function encode() {
-
+function encode (mensagem, chave){
   
-  let mensagem = document.getElementById('mensagem').value;
-  let chave = document.getElementById('chave').value;
-
-  // for (i=0; mensagem.length < i; i++){
-  //   let encode = 
-////////////////////////////////////
-  // }
-
-
-  
-  let prepMensagem = mensagem.split("")
-  let exibeCod = prepMensagem.map(b => b.charCodeAt() + parseInt(chave))
-  document.getElementById("resultadoStr").innerHTML = exibeCod;
-  // let exibeCifra= str.fromCharCode(exibeCod)
-  // document.getElementById("cripto").innerHTML = "teste" exibeCifra;
-
-}
-
-// Mostra resultado cripografado, alteração
-
-function decode() {
-
   let alfabeto = 26;
-  let palavra = document.getElementById('palavra').value;
-  let chave = document.getElementById('chave').value;
-  let prepPalavra = palavra.split("")
-  let exibeCod = prepPalavra.map(b => b.charCodeAt() + parseInt(chave) % alfabeto)
-  document.getElementById("resultadoStr").innerHTML = exibeCod;
-  // let exibeCifra= str.fromCharCode(exibeCod)
-  // document.getElementById("cripto").innerHTML = "teste" exibeCifra;
+  let result = ""
 
+  for (i = 0; i < mensagem.length; i++){
+    let getChar = mensagem.charCodeAt(i);
+    let encode = (getChar - 97) + chave % alfabeto + 97;
+    let asc = String.fromCharCode(encode);
+    let publicar = result += asc;
+  }
+}
+
+function decode(resultado, chave){
+  
+  let alfabeto = 26;
+  let result = ""
+
+  for (i = 0; i < resultado.length; i++){
+    let getChar = resultado.charCodeAt(i);
+    let encode = (getChar - 97) - chave % alfabeto + 97;
+    let asc = String.fromCharCode(encode);
+    let publicar = result += asc;
+  }
 }
 
 
 
-
-
+function teste(calculado, esperado) {
+  if (calculado === esperado) {
+    console.log("Passou!");
+    return true;
+  }else {
+    console.log("Deu Erro! " + calculado + " não é igual a " + esperado);
+    return false;
+  }
+}
