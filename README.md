@@ -1,5 +1,5 @@
 ## Prefácio
-Criptografia de composições musicais para auxiliar no processo de composição e registro de letras autorais.
+Criptografia de composições musicais para auxiliar no registro de letras autorais.
 A referência se  baseia em um dos primeiros tipos de criptografias conhecidos na história. É um tipo de cifra por substituição, em que uma letra no texto original é substituída por outra, seguindo um número fixo para essa subtituição
 
 
