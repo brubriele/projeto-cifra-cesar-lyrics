@@ -56,7 +56,7 @@ Músicos, letristas, compositores em geral.
 
 
 ## Fluxograma
-![Fluxograma](images\flowchart.png)
+https://github.com/brubriele/projeto-cifra-cesar-lyrics/blob/master/img/flowchart.png?raw=true
 
 
 ## Agradecimentos
