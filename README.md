@@ -1,5 +1,5 @@
 ## Prefácio
-Criptografia de composições musicais para auxiliar no processo de composição e registro de letras autorais.
+Criptografia de composições musicais para auxiliar no registro de letras autorais.
 A referência se  baseia em um dos primeiros tipos de criptografias conhecidos na história. É um tipo de cifra por substituição, em que uma letra no texto original é substituída por outra, seguindo um número fixo para essa subtituição
 
 
@@ -56,10 +56,10 @@ Músicos, letristas, compositores em geral.
 
 
 ## Fluxograma
-![Fluxograma](images\flowchart.png)
+https://github.com/brubriele/projeto-cifra-cesar-lyrics/blob/master/img/flowchart.png?raw=true
 
 
 ## Agradecimentos
-À equipe Laboratoria, mentores, equipe pedagógica, colegas do curso e em especial às minhas companheiras de squad: Ana Carolina Biscalchin,Ana Carolina Drumond, Ana Paula Lopes Araujo, Bruna Almeida e Bruna Gabriele Paula, que colaboraram muito para meu desenvolvimento durante este srpint do projeto.
+À equipe Laboratoria, mentores, equipe pedagógica, colegas do curso e em especial às minhas companheiras de squad: Ana Carolina Biscalchin, Ana Carolina Drumond, Ana Paula Lopes Araujo e Bruna Almeida que colaboraram muito para meu desenvolvimento durante este srpint do projeto.
 
 
