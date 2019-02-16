@@ -9,3 +9,5 @@ function teste(calculado, esperado) {
 }
 
 teste(encode('teste',27),'uftuf')
+
+// teste
